@@ -30,4 +30,4 @@ You have three buttons:
 
 ## Installation
 
-For installation you need to download the apk file. Then you must authorize your phone to install unknown applications then click on Install.
+For installation you need to download the app-debug.apk file. Then you must authorize your phone to install unknown applications then click on Install.
