@@ -15,6 +15,7 @@ import java.util.Random;
 
 public class BlindTestGame extends AppCompatActivity {
     private boolean isStart = false;
+    private boolean firstStart = false;
     private MediaPlayer mediaPlayer;
     private int currentMusicIndex = -1; // Index of the currently playing music
 
@@ -49,11 +50,11 @@ public class BlindTestGame extends AppCompatActivity {
         buttonValidate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!isStart) {
+                if (!firstStart) {
                     Toast.makeText(BlindTestGame.this, "Listen to the music first", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
+                firstStart = false;
                 mediaPlayer.stop();
                 validateCurrentMusicFolderName();
             }
@@ -89,6 +90,7 @@ public class BlindTestGame extends AppCompatActivity {
 
             if (!isStart) {
                 mediaPlayer.start();
+                firstStart = true;
                 isStart = true;
                 buttonPlay.setText("Stop");
             } else {

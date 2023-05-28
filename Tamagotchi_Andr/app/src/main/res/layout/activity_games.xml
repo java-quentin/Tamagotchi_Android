@@ -50,7 +50,7 @@
             android:text="Rock Paper Scissors"
             android:textColor="@android:color/white"
             android:layout_gravity="center"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:shadowColor="@android:color/black"
             android:shadowDx="10"
             android:shadowDy="10"

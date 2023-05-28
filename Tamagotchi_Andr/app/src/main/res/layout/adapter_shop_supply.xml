@@ -37,7 +37,11 @@
             android:layout_height="wrap_content"
             android:translationY="5dp"
             android:text="Buy"
-            android:textColor="@color/black"
+            android:textColor="@android:color/white"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             android:layout_alignParentEnd="true"
             android:background="@drawable/button_border_black"/>
     </RelativeLayout>

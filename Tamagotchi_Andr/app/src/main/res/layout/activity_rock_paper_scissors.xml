@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:text="Welcome to rock paper scissors game !\n Click on the rock, paper or scissors image for play !"
                 android:gravity="center"
-                android:textSize="25dp"
+                android:textSize="30dp"
                 android:textStyle="bold"
                 android:layout_marginTop="50dp"
                 android:textColor="@android:color/white"
