@@ -3,6 +3,7 @@ package com.example.tamagotchi_andr;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -97,9 +98,13 @@ public class MainActivity extends AppCompatActivity {
     private void checkHappiness() {
         if (hapiness <= 0) {
             // Death message
-            Toast toast = Toast.makeText(MainActivity.this, "Oh no! Your Allay away due to a great depression. It's a sadness moment. 😢 \n You start over from the beginning.", Toast.LENGTH_LONG);
-            toast.setGravity(Gravity.CENTER, 0, 0);
-            toast.setDuration(Toast.LENGTH_LONG * 4);
+            String message = "Oh no! Your Allay away due to a great depression. It's a sadness moment. 😢 \n You start over from the beginning.";
+            Toast toast = Toast.makeText(MainActivity.this, "", Toast.LENGTH_LONG);
+            TextView textView = new TextView(MainActivity.this);
+            textView.setText(message);
+            textView.setTextColor(Color.WHITE);
+            textView.setTextSize(16);
+            toast.setView(textView);
             toast.show();
 
             resetValues();
@@ -110,9 +115,13 @@ public class MainActivity extends AppCompatActivity {
     private void checkSaturation() {
         if (saturation <= 0) {
             // Death message
-            Toast toast = Toast.makeText(MainActivity.this, "Oh no! Your Allay away due to extreme hunger. It's a sadness moment. 😢 \n You start over from the beginning.", Toast.LENGTH_LONG);
-            toast.setGravity(Gravity.CENTER, 0, 0);
-            toast.setDuration(Toast.LENGTH_LONG * 4);
+            String message = "Oh no! Your Allay away due to extreme hunger. It's a sadness moment. 😢 \n You start over from the beginning.";
+            Toast toast = Toast.makeText(MainActivity.this, "", Toast.LENGTH_LONG);
+            TextView textView = new TextView(MainActivity.this);
+            textView.setText(message);
+            textView.setTextColor(Color.WHITE);
+            textView.setTextSize(16);
+            toast.setView(textView);
             toast.show();
 
             resetValues();

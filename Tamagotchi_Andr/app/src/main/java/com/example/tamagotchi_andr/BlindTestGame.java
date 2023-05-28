@@ -21,7 +21,7 @@ public class BlindTestGame extends AppCompatActivity {
 
     private final String[] musicFiles = {
             "abba", "britney_spears", "imagine_dragons",
-            "jean_jaques_goldman", "johny_hallyday",
+            "jean_jaques_goldman", "johnny_hallyday",
             "queen", "renaud", "stromae"
     };
     private Button buttonPlay;
