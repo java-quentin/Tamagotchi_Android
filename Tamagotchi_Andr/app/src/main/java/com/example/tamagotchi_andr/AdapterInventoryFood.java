@@ -79,7 +79,7 @@ public class AdapterInventoryFood extends BaseAdapter {
                             }
                             MainActivity.frenchBreadState--;
                             Toast.makeText(context, "You have eaten French Bread!", Toast.LENGTH_SHORT).show();
-                            itemStateView.setText("You have: " + MainActivity.frenchBreadState);
+                            itemStateView.setText("Have : " + MainActivity.frenchBreadState);
                         } else {
                             Toast.makeText(context, "You don't have French Bread.", Toast.LENGTH_SHORT).show();
                         }
@@ -93,7 +93,7 @@ public class AdapterInventoryFood extends BaseAdapter {
                             }
                             MainActivity.freshBeetrootState--;
                             Toast.makeText(context, "You have eaten Fresh beetroot!", Toast.LENGTH_SHORT).show();
-                            itemStateView.setText("You have: " + MainActivity.freshBeetrootState);
+                            itemStateView.setText("Have : " + MainActivity.freshBeetrootState);
                         } else {
                             Toast.makeText(context, "You don't have Fresh beetroot.", Toast.LENGTH_SHORT).show();
                         }
@@ -107,7 +107,7 @@ public class AdapterInventoryFood extends BaseAdapter {
                             }
                             MainActivity.crunchyCarrotState--;
                             Toast.makeText(context, "You have eaten Crunchy carrot!", Toast.LENGTH_SHORT).show();
-                            itemStateView.setText("You have: " + MainActivity.crunchyCarrotState);
+                            itemStateView.setText("Have : " + MainActivity.crunchyCarrotState);
                         } else {
                             Toast.makeText(context, "You don't have Crunchy carrot.", Toast.LENGTH_SHORT).show();
                         }
@@ -121,7 +121,7 @@ public class AdapterInventoryFood extends BaseAdapter {
                             }
                             MainActivity.bakedPotatoState--;
                             Toast.makeText(context, "You have eaten Baked potato!", Toast.LENGTH_SHORT).show();
-                            itemStateView.setText("You have: " + MainActivity.bakedPotatoState);
+                            itemStateView.setText("Have : " + MainActivity.bakedPotatoState);
                         } else {
                             Toast.makeText(context, "You don't have Baked potato.", Toast.LENGTH_SHORT).show();
                         }
@@ -135,7 +135,7 @@ public class AdapterInventoryFood extends BaseAdapter {
                             }
                             MainActivity.juicyAppleState--;
                             Toast.makeText(context, "You have eaten Juicy apple!", Toast.LENGTH_SHORT).show();
-                            itemStateView.setText("You have: " + MainActivity.juicyAppleState);
+                            itemStateView.setText("Have : " + MainActivity.juicyAppleState);
                         } else {
                             Toast.makeText(context, "You don't have Juicy apple.", Toast.LENGTH_SHORT).show();
                         }

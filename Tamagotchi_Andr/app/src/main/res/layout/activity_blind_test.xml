@@ -27,8 +27,8 @@ Please put the full name of the artist without error, in this form: 'Ariana Gran
 
     <ImageView
         android:id="@+id/image_interrogation"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/music"
         android:padding="30dp" />
 
