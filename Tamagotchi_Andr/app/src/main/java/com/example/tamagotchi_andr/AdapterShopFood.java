@@ -58,7 +58,7 @@ public class AdapterShopFood extends BaseAdapter {
         itemPriceView.setText(itemPrice + " Emeralds");
 
         TextView itemSaturationView = view.findViewById(R.id.item_saturation);
-        itemSaturationView.setText("+" + itemSaturation + " food");
+        itemSaturationView.setText("+" + itemSaturation + " saturation");
 
         ImageView itemIconView = view.findViewById(R.id.item_icon_shop);
         String resourceName = "icon_" + imgPrefix;

@@ -56,7 +56,7 @@ public class AdapterInventoryFood extends BaseAdapter {
         itemNameView.setText(itemName);
 
         TextView itemSaturationView = view.findViewById(R.id.item_saturation);
-        itemSaturationView.setText(itemSaturation + " saturation");
+        itemSaturationView.setText("+" + itemSaturation + " saturation");
 
         TextView itemStateView = view.findViewById(R.id.item_state);
         itemStateView.setText("Have: " + itemState);

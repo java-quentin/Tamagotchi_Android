@@ -17,7 +17,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:textColor="@color/black"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
         android:text="Back"
         android:background="@drawable/button_border_black" />
 
