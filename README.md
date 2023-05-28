@@ -3,6 +3,10 @@
 TamagotchiAndroid is a Android Studio project which is not related to the Tamagotchi JavaFx project. 
 In this project, You must take care of your Allay, take care of his happiness and his hunger thanks to the mini-games and the shop.
 
+## Universe 
+
+Tamagotchi universe comes from Minecraft game.
+
 ## Features
 
 You have two gauges in this game : 
