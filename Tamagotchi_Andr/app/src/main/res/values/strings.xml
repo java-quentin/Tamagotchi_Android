@@ -4,7 +4,7 @@
     <string name="item_default_price">00, 00€</string>
     <string name="item_default_saturation">+0 food</string>
     <string name="item_default_happiness">Happiness : 100%</string>
-    <string name="item_default_hungry">Hungry : 20</string>
-    <string name="item_default_money">Money : 10€</string>
-    <string name="item_default_state_inventory">State : already buy</string>
+    <string name="item_default_hungry">Saturation : 20</string>
+    <string name="item_default_money">Emerald : 10</string>
+    <string name="item_default_state_inventory">Have :0</string>
 </resources>

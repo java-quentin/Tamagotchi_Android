@@ -12,7 +12,7 @@
             android:id="@+id/item_icon_shop"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            android:src="@drawable/icon_pomme"/>
+            android:src="@drawable/icon_bread"/>
 
         <TextView
             android:id="@+id/item_name"

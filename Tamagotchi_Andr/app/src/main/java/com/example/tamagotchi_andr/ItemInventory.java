@@ -1,13 +1,13 @@
 package com.example.tamagotchi_andr;
 
-public class HighTechItemInventory {
+public class ItemInventory {
     private String name;
     private double price;
     private String imgPrefix;
-    private String state;
+    private Integer state;
 
 
-    public HighTechItemInventory(String name, double price, String imgPrefix, String state)
+    public ItemInventory(String name, double price, String imgPrefix, Integer state)
     {
         this.name = name;
         this.price = price;
@@ -30,7 +30,7 @@ public class HighTechItemInventory {
         return imgPrefix;
     }
 
-    public String getState() {
+    public Integer getState() {
         return state;
     }
 }

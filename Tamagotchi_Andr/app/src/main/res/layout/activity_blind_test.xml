@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/concert">
+
+    <TextView
+        android:id="@+id/item_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Blind Test mini-game!
+\n\n
+Click 'Play' to start a piece of music.
+\n\n
+You need to find the author of the music.
+\n\n
+Please put the full name of the artist without error, in this form: 'Ariana Grande'"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="1"/>
+
+    <ImageView
+        android:id="@+id/image_interrogation"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/music"
+        android:padding="30dp" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="5dp"
+        android:text="Play"
+        android:background="@drawable/button_border_black"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/item_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of the artist"
+            android:layout_marginTop="10dp"
+            android:shadowColor="@android:color/white"
+            android:shadowRadius="1"/>
+
+        <Button
+            android:id="@+id/button_validate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="10dp"
+            android:text="Validate"
+            android:background="@drawable/button_border_black"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_back_blind_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="20dp"
+        android:translationX="10dp"
+        android:text="Back"
+        android:background="@drawable/button_border_black"
+        android:layout_gravity="bottom|start"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
+
+</LinearLayout>

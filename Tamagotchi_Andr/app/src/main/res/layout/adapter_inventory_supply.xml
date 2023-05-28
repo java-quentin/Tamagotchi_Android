@@ -9,7 +9,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/item_icon_shop"
+            android:id="@+id/item_icon_inventory"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@drawable/icon_hoe"/>
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="@string/item_default_name"
-            android:layout_toRightOf="@id/item_icon_shop"/>
+            android:layout_toRightOf="@id/item_icon_inventory"/>
 
         <TextView
             android:id="@+id/item_price"
@@ -29,17 +29,17 @@
             android:layout_marginLeft="10dp"
             android:text="@string/item_default_price"
             android:layout_below="@id/item_name"
-            android:layout_toRightOf="@id/item_icon_shop"/>
+            android:layout_toRightOf="@id/item_icon_inventory"/>
 
-        <Button
-            android:id="@+id/item_buy"
+        <TextView
+            android:id="@+id/item_state"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:translationY="5dp"
-            android:text="Buy"
-            android:textColor="@color/black"
-            android:layout_alignParentEnd="true"
-            android:background="@drawable/button_border_black"/>
+            android:layout_marginLeft="10dp"
+            android:text="@string/item_default_state_inventory"
+            android:layout_below="@id/item_price"
+            android:layout_toRightOf="@id/item_icon_inventory"/>
+
     </RelativeLayout>
 
 </RelativeLayout>

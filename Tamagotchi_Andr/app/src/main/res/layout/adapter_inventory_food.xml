@@ -12,7 +12,7 @@
             android:id="@+id/item_icon_inventory"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            android:src="@drawable/icon_chapeau_de_fermier"/>
+            android:src="@drawable/icon_bread"/>
 
         <TextView
             android:id="@+id/item_name"
@@ -23,11 +23,11 @@
             android:layout_toRightOf="@id/item_icon_inventory"/>
 
         <TextView
-            android:id="@+id/item_price"
+            android:id="@+id/item_saturation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="@string/item_default_price"
+            android:text="@string/item_default_hungry"
             android:layout_below="@id/item_name"
             android:layout_toRightOf="@id/item_icon_inventory"/>
 
@@ -37,8 +37,18 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="@string/item_default_state_inventory"
-            android:layout_below="@id/item_price"
+            android:layout_below="@id/item_saturation"
             android:layout_toRightOf="@id/item_icon_inventory"/>
+
+        <Button
+            android:id="@+id/item_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="5dp"
+            android:text="Use"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_border_black"/>
 
     </RelativeLayout>
 

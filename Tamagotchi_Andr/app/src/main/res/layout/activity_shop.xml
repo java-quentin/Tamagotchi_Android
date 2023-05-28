@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/black">
+    android:orientation="vertical">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -11,17 +10,17 @@
         android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/image_blind_test"
+            android:id="@+id/image_food"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/concert"
+            android:src="@drawable/icon_bread"
             android:background="@drawable/image_border_black"
-            />
+            android:padding="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blind Test"
+            android:text="Food"
             android:textColor="@android:color/white"
             android:layout_gravity="center"
             android:textSize="50sp"
@@ -37,17 +36,17 @@
         android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/image_"
+            android:id="@+id/image_supply"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/icon_patate"
+            android:src="@drawable/icon_hoe"
             android:background="@drawable/image_border_black"
             android:padding="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Coming Soon !"
+            android:text="Supply"
             android:textColor="@android:color/white"
             android:layout_gravity="center"
             android:textSize="50sp"

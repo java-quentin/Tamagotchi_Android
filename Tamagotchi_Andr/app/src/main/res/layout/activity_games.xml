@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/black">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -10,17 +11,17 @@
         android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/image_food"
+            android:id="@+id/image_blind_test"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/icon_baguette"
+            android:src="@drawable/full_concert"
             android:background="@drawable/image_border_black"
-            android:padding="20dp"/>
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food"
+            android:text="Blind Test"
             android:textColor="@android:color/white"
             android:layout_gravity="center"
             android:textSize="50sp"
@@ -36,20 +37,35 @@
         android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/image_supply"
+            android:id="@+id/image_rock_paper_scissors"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/icon_chapeau_de_fermier"
+            android:src="@drawable/rock_paper_scissors"
             android:background="@drawable/image_border_black"
             android:padding="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Supply"
+            android:text="Rock Paper Scissors"
             android:textColor="@android:color/white"
             android:layout_gravity="center"
-            android:textSize="50sp"
+            android:textSize="40sp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"/>
+
+        <Button
+            android:id="@+id/button_back_games"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:translationX="10dp"
+            android:text="Back"
+            android:background="@drawable/button_border_black"
+            android:layout_gravity="bottom|start"
+            android:textColor="@android:color/white"
             android:shadowColor="@android:color/black"
             android:shadowDx="10"
             android:shadowDy="10"
