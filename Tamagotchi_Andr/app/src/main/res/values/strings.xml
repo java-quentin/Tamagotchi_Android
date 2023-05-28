@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tamagotchi_Andr</string>
+    <string name="app_name">Tamagotchi</string>
     <string name="item_default_name">Device Name</string>
     <string name="item_default_price">00, 00€</string>
     <string name="item_default_saturation">+0 food</string>
